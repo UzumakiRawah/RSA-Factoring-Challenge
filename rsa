@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+!/usr/bin/python3
 from sys import argv
 
 with open(argv[1]) as f:
@@ -16,3 +16,4 @@ with open(argv[1]) as f:
                         break
                 print("{}*{}".format(factor, i))
                 break
+ 
